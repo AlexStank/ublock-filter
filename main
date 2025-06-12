@@ -4,19 +4,13 @@
 
 !#include services/yandex
 !#include services/microsoft
+!#include services/vk
 
 ! Баннер в поддержку Украины на RezkaHD
 rezka.ag##.glory
 
 ! Баннер вверху сайта ЛитРес
 www.litres.ru##div[ class ^= 'MainPromoBanner' ]
-
-! 20 окт. 2024 г. https://ya.ru
-ya.ru##.VideoNohostFilter_type_apply.VideoNohostFilter.Button2_link.Button2_view_default.Button2_size_s.Button2
-
-!!! ВКонтакте
-! Баннер с рекламой над панелью с музыкой
-vk.com##.CatalogSection--header_section.CatalogSection
 
 !!! Youtube
 ! Hide all videos containing the phrase "#shorts"
@@ -50,7 +44,3 @@ youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
 
 ! Remove empty spaces in grid
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
-
-!!! Маил.ру
-! Предложение установить приложение
-cloud.mail.ru##div[ class ^= 'TreePromoDesktopAp' ]
