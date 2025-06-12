@@ -37,3 +37,6 @@ disk.yandex.ru##.top-direct-line
 !! Яндекс.Карты
 ! Реклама под пунктами начального меню
 yandex.ru##:matches-path(maps) div[ class $= 'discovery-home-feed' ]
+
+! 20 окт. 2024 г. https://ya.ru
+ya.ru##.VideoNohostFilter_type_apply.VideoNohostFilter.Button2_link.Button2_view_default.Button2_size_s.Button2
