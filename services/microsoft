@@ -1,5 +1,7 @@
-!!! Сервисы Microsoft
-! Уведомление об использовании блокировщика рекламы в Outlook 
+!! Outlook
+! Уведомление об использовании блокировщика рекламы
 outlook.live.com###MainModule > div > div > div:nth-child(4)
-! Кнопка "Повысить статус" на левой панели OneDrive
+
+!! OneDrive
+! Кнопка "Повысить статус" на левой панели
 onedrive.live.com##div[ class ^= 'storageUpsellBanner' ]
