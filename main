@@ -2,45 +2,7 @@
 ! Version: 0.1.0.0
 ! Homepage: https://github.com/AlexStank/ublock-filter
 
-!!! Сервисы Яндекса
-! Всплывающее окно по центру на главной страницы
-!ya.ru##div[ class ^= 'simple-popup' ]
-! Полоса с просьбой установки приложений на главной странице поиска
-ya.ru##.dist-stripe
-! Баннер установки поиска Яндекса по умолчанию
-ya.ru##.Distribution-SplashScreenModal
-! Любые всплывающие окна?
-ya.ru##.Distribution-Popup
-! Просьба установить Яндекс.Браузер у иконки аккаунта (или что-то другое)
-ya.ru##.HeaderDesktopActions-Distribution
-!! Яндекс.Поиск
-! Баннер справа от результатов поиска
-ya.ru##:matches-path(/search) div[ id = 'search-result-aside' ]
-!! Яндекс.Картинки
-! Просьба установки поиска Яндекс по умолчанию
-ya.ru##:matches-path(/images) #distr-pcode-container
-! Реклама в Яндекс.Картинках (между изображениями в списке найденных фото)
-ya.ru##:matches-path(/images/search) .serplist:not( :has( div[ class = 'serp-item' ] ) )
-! Реклама в Яндекс.Картинках (режим просмотра картинки)
-ya.ru##:matches-path(/images/search) .ImagesViewer-Sidebar > div > div > div > div:nth-child(2)
-! Реклама в Яндекс.Картинках (блок рекламы над картинками)
-ya.ru##.AdvMastHead
-!! Яндекс.Видео
-! Реклама в Яндекс.Видео
-ya.ru##:matches-path(/video/search) .SerpListFeature > div
-! Уведомление о нарушении законов РФ
-ya.ru##:matches-path(/video/search) .PreventionFeature
-! Кнопка "Отключить рекламу" в Яндекс.Почте
-mail.yandex.ru##div[ class ^= 'TuningPayButton' ]
-! Кнопка "Установить приложение" в Яндекс.Диске
-disk.yandex.ru##.AppLink
-! Полоса с рекламой над списком папок в Яндекс.Диске
-disk.yandex.ru##.top-direct-line
-! Забыл, что это, потом вспомню
-!ya.ru##.content__right_cols_12.content__right
-!! Яндекс.Карты
-! Реклама под пунктами начального меню
-yandex.ru##:matches-path(maps) div[ class $= 'discovery-home-feed' ]
+!#include services/yandex
 
 !!! Сервисы Microsoft
 ! Уведомление об использовании блокировщика рекламы в Outlook 
