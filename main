@@ -3,12 +3,7 @@
 ! Homepage: https://github.com/AlexStank/ublock-filter
 
 !#include services/yandex
-
-!!! Сервисы Microsoft
-! Уведомление об использовании блокировщика рекламы в Outlook 
-outlook.live.com###MainModule > div > div > div:nth-child(4)
-! Кнопка "Повысить статус" на левой панели OneDrive
-onedrive.live.com##div[ class ^= 'storageUpsellBanner' ]
+!#include services/microsoft
 
 ! Баннер в поддержку Украины на RezkaHD
 rezka.ag##.glory
