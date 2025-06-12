@@ -1,0 +1,2 @@
+! Баннер в шапке сайта
+www.litres.ru##div[ class ^= 'MainPromoBanner' ]
