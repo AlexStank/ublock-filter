@@ -35,7 +35,7 @@ mail.yandex.ru##div[ class ^= 'TuningPayButton' ]
 disk.yandex.ru##.AppLink
 ! Полоса с рекламой над списком папок в Яндекс.Диске
 disk.yandex.ru##.top-direct-line
-! Хуй знает что это, потом вспомню
+! Забыл, что это, потом вспомню
 !ya.ru##.content__right_cols_12.content__right
 !! Яндекс.Карты
 ! Реклама под пунктами начального меню
