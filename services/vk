@@ -1,0 +1,7 @@
+!! VK
+! Баннер с рекламой над панелью с музыкой
+vk.com##.CatalogSection--header_section.CatalogSection
+
+!! Почта
+! Предложение установить приложение
+cloud.mail.ru##div[ class ^= 'TreePromoDesktopAp' ]
