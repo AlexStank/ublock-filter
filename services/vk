@@ -1,6 +1,8 @@
 !! VK
 ! Баннер с рекламой над панелью с музыкой
 vk.com##.CatalogSection--header_section.CatalogSection
+! Баннеры справа от ленты новостей
+vk.com###feed_filters
 
 !! Почта
 ! Предложение установить приложение
