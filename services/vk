@@ -7,3 +7,7 @@ vk.com###feed_filters
 !! Почта
 ! Предложение установить приложение
 cloud.mail.ru##div[ class ^= 'TreePromoDesktopAp' ]
+
+!! Облако
+! Зона drag&drop
+cloud.mail.ru##div[ class ^= 'UploadProvocation__wrapper' ]
