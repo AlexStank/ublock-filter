@@ -1,4 +1,6 @@
 !! Общее
+! Всплывающие уведомления в правом нижнем углу
+ya.ru## #distr-pcode-container
 ! Всплывающее окно по центру на главной страницы
 !ya.ru##div[ class ^= 'simple-popup' ]
 ! Полоса с просьбой установки приложений на главной странице поиска
@@ -19,9 +21,9 @@ ya.ru##:matches-path(/search) div[ id = 'search-result-aside' ]
 mail.yandex.ru##div[ class ^= 'TuningPayButton' ]
 
 !! Диск
-! Кнопка "Установить приложение" в Яндекс.Диске
+! Кнопка "Установить приложение"
 disk.yandex.ru##.AppLink
-! Полоса с рекламой над списком папок в Яндекс.Диске
+! Полоса с рекламой над списком папок
 disk.yandex.ru##.top-direct-line
 
 !! Карты
@@ -29,8 +31,6 @@ disk.yandex.ru##.top-direct-line
 yandex.ru##:matches-path(maps) div[ class $= 'discovery-home-feed' ]
 
 !! Картинки
-! Просьба установки поиска Яндекс по умолчанию
-ya.ru##:matches-path(/images) #distr-pcode-container
 ! Реклама в Яндекс.Картинках (между изображениями в списке найденных фото)
 ya.ru##:matches-path(/images/search) .serplist:not( :has( div[ class = 'serp-item' ] ) )
 ! Реклама в Яндекс.Картинках (режим просмотра картинки)
