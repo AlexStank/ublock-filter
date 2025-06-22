@@ -30,3 +30,7 @@ youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
 
 ! Remove empty spaces in grid
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
+
+!! Mail
+! Кнопка "Сменить план"
+mail.google.com##div[ role = 'navigation' ] > span
