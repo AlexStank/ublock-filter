@@ -4,6 +4,10 @@ vk.com##.CatalogSection--header_section.CatalogSection
 ! Баннеры справа от ленты новостей
 vk.com###feed_filters
 
+!! VK ID
+! Реклама под меню настроек
+id.vk.com##div[ class ^= 'AdvertisingBanner' ]
+
 !! Почта
 ! Предложение установить приложение
 cloud.mail.ru##div[ class ^= 'TreePromoDesktopAp' ]
