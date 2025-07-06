@@ -18,4 +18,4 @@ cloud.mail.ru##div[ class ^= 'UploadProvocation__wrapper' ]
 ! Кнопка "Загрузить"
 cloud.mail.ru##.Upload__root--3sm3X
 ! Кнопка "Создать или загрузить"
-cloud.mail.ru##div[ class ^= 'VirtualList_new' ] > div > div:nth-child(2)
+cloud.mail.ru##div[ class ^= 'VirtualList' ] > div > div:nth-child(2)
