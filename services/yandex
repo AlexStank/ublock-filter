@@ -1,20 +1,20 @@
 !! Общее
 ! Всплывающие уведомления в правом нижнем углу
-ya.ru## #distr-pcode-container
+ya.ru,yandex.ru## #distr-pcode-container
 ! Всплывающее окно по центру на главной страницы
-!ya.ru##div[ class ^= 'simple-popup' ]
+!ya.ru,yandex.ru##div[ class ^= 'simple-popup' ]
 ! Полоса с просьбой установки приложений на главной странице поиска
-ya.ru##.dist-stripe
+ya.ru,yandex.ru##.dist-stripe
 ! Баннер установки поиска Яндекса по умолчанию
-ya.ru##.Distribution-SplashScreenModal
+ya.ru,yandex.ru##.Distribution-SplashScreenModal
 ! Любые всплывающие окна?
-ya.ru##.Distribution-Popup
+ya.ru,yandex.ru##.Distribution-Popup
 ! Просьба установить Яндекс.Браузер у иконки аккаунта (или что-то другое)
-ya.ru##.HeaderDesktopActions-Distribution
+ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 
 !! Поиск
 ! Баннер справа от результатов поиска
-ya.ru##:matches-path(/search) div[ id = 'search-result-aside' ]
+ya.ru,yandex.ru##:matches-path(/search) div[ id = 'search-result-aside' ]
 
 !! Почта
 ! Кнопка "Отключить рекламу" в Яндекс.Почте
@@ -32,20 +32,20 @@ yandex.ru##:matches-path(maps) div[ class $= 'discovery-home-feed' ]
 
 !! Картинки
 ! Реклама в Яндекс.Картинках (между изображениями в списке найденных фото)
-ya.ru##:matches-path(/images/search) .serplist:not( :has( div[ class = 'serp-item' ] ) )
+ya.ru,yandex.ru##:matches-path(/images/search) .serplist:not( :has( div[ class = 'serp-item' ] ) )
 ! Реклама в Яндекс.Картинках (режим просмотра картинки)
-ya.ru##:matches-path(/images/search) .ImagesViewer-Sidebar > div > div > div > div:nth-child(2)
+ya.ru,yandex.ru##:matches-path(/images/search) .ImagesViewer-Sidebar > div > div > div > div:nth-child(2)
 ! Реклама в Яндекс.Картинках (блок рекламы над картинками)
-ya.ru##.AdvMastHead
+ya.ru,yandex.ru##.AdvMastHead
 
 !! Видео
 ! Реклама в Яндекс.Видео
-ya.ru##:matches-path(/video/search) .SerpListFeature > div
+ya.ru,yandex.ru##:matches-path(/video/search) .SerpListFeature > div
 ! Уведомление о нарушении законов РФ
-ya.ru##:matches-path(/video/search) .PreventionFeature
+ya.ru,yandex.ru##:matches-path(/video/search) .PreventionFeature
 
 ! Забыл, что это, потом вспомню
-!ya.ru##.content__right_cols_12.content__right
+!ya.ru,yandex.ru##.content__right_cols_12.content__right
 
 ! 20 окт. 2024 г. https://ya.ru
-ya.ru##.VideoNohostFilter_type_apply.VideoNohostFilter.Button2_link.Button2_view_default.Button2_size_s.Button2
+ya.ru,yandex.ru##.VideoNohostFilter_type_apply.VideoNohostFilter.Button2_link.Button2_view_default.Button2_size_s.Button2
