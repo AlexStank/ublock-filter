@@ -2,6 +2,7 @@
 ! Version: 0.1.0.0
 ! Homepage: https://github.com/AlexStank/ublock-filter
 
+!#include services/deepseek
 !#include services/google
 !#include services/litres
 !#include services/microsoft
