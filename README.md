@@ -1,6 +1,6 @@
 # ublock-filter
 
-Личный список правил блокировки рекламы.
+Личный список правил блокировки рекламы. В основном применяются косметические правки.
 
 ## Подписка
 Самый простой способ добавить список к себе - [подписаться](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FAlexStank%2Fublock-filter%2Fmaster%2Fmain&amp;title=AlexStank%20uBlock%20Filter) на него.
