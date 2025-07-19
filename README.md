@@ -2,7 +2,10 @@
 
 Личный список правил блокировки рекламы.
 
-Импорт
+## Подписка
+[Подписаться](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FAlexStank%2Fublock-filter%2Fmaster%2Fmain.txt&amp;title=AlexStank%20uBlock%20Filter).
+
+## Импорт
 ---
 Как импортировать в uBlock Origin:
 1. Перейти в самый конец вкладки "Список фильтров" (Filter lists) в настройках расширения
@@ -12,6 +15,6 @@
   ````
 3. Применить изменения
 
-Дополнительные списки
+## Дополнительные списки
 ---
 Дополнительно можно установить фильтр [AdGuard Russion Filter](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/1.txt&title=Adguard%20Russian%20Filter), перейдя по ссылке и нажав "Подписаться" в правом верхнем углу.
