@@ -3,10 +3,10 @@
 ! Version: 0.1.0.0
 ! Homepage: https://github.com/AlexStank/ublock-filter
 
-!#include services/deepseek.txt
-!#include services/google.txt
-!#include services/litres.txt
-!#include services/microsoft.txt
-!#include services/rezka.txt
-!#include services/vk.txt
-!#include services/yandex.txt
+!#include services/deepseek
+!#include services/google
+!#include services/litres
+!#include services/microsoft
+!#include services/rezka
+!#include services/vk
+!#include services/yandex
