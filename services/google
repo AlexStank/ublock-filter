@@ -32,7 +32,7 @@ youtube.com##ytd-reel-shelf-renderer.ytd-structured-description-content-renderer
 youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
 ! Enable 4 columns
-youtube.com##ytd-rich-item-renderer:style( --ytd-rich-grid-items-per-row: 4 )
+youtube.com##ytd-rich-item-renderer:style( --ytd-rich-grid-items-per-row: 5 )
 
 ! Remove grid item margins
 youtube.com##ytd-rich-item-renderer:style( --ytd-rich-grid-gutter-margin: 0px )
