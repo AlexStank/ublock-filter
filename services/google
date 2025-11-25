@@ -35,7 +35,7 @@ youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: conten
 youtube.com##ytd-rich-item-renderer:style( --ytd-rich-grid-items-per-row: 4 )
 
 ! Remove grid item margins
-youtube.com##ytd-rich-grid-renderer:style( --ytd-rich-grid-gutter-margin: 0px )
+youtube.com##ytd-rich-item-renderer:style( --ytd-rich-grid-gutter-margin: 0px )
 
 !! Mail
 ! Кнопка "Сменить план"
