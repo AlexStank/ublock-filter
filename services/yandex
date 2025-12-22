@@ -8,7 +8,7 @@ ya.ru,yandex.ru##.dist-stripe
 ! Баннер установки поиска Яндекса по умолчанию
 ya.ru,yandex.ru##.Distribution-SplashScreenModal
 ! Любые всплывающие окна?
-ya.ru,yandex.ru##.Distribution-Popup
+ya.ru,yandex.ru##.DistributionPopup
 ! Просьба установить Яндекс.Браузер у иконки аккаунта (или что-то другое)
 ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 
