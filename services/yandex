@@ -12,10 +12,6 @@ ya.ru,yandex.ru##.DistributionPopup
 ! Просьба установить Яндекс.Браузер у иконки аккаунта (или что-то другое)
 ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 
-!! Поиск
-! Баннер справа от результатов поиска
-!ya.ru,yandex.ru##:matches-path(/search) div[ id = 'search-result-aside' ]
-
 !! Почта
 ! Кнопка "Отключить рекламу" в Яндекс.Почте
 mail.yandex.ru##div[ class ^= 'TuningPayButton' ]
