@@ -14,7 +14,7 @@ ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 
 !! Поиск
 ! Баннер справа от результатов поиска
-ya.ru,yandex.ru##:matches-path(/search) div[ id = 'search-result-aside' ]
+!ya.ru,yandex.ru##:matches-path(/search) div[ id = 'search-result-aside' ]
 
 !! Почта
 ! Кнопка "Отключить рекламу" в Яндекс.Почте
