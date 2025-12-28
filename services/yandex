@@ -45,6 +45,8 @@ ya.ru,yandex.ru##:matches-path(/video/search) .SerpListFeature > div
 ya.ru,yandex.ru##:matches-path(/video/search) .PreventionFeature
 # Реклама товаров справа от видео в всплывающем окне
 ya.ru,yandex.ru##:matches-path(/video/preview) div[ class $= 'VideoListPageDirect' ]
+# Реклама товаров под видео в всплывающем окне
+ya.ru,yandex.ru##:matches-path(/video/preview) div[ class $= 'PopupInnerContent' ] > div > div[ class $= 'LayoutMain' ] > div[ class $= '_withStore' ]
 
 ! Забыл, что это, потом вспомню
 !ya.ru,yandex.ru##.content__right_cols_12.content__right
