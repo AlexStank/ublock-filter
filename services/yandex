@@ -25,6 +25,10 @@ disk.yandex.ru##.top-direct-line
 !! Карты
 ! Реклама под пунктами начального меню
 yandex.ru##:matches-path(maps) div[ class $= 'discovery-home-feed' ]
+! Реклама в левом меню с информацией о доме
+yandex.ru##:matches-path(maps) div[ class = 'toponym-card-view__section' ]:has( div[ tabindex = '-1' ] )
+! Реклама в левом меню (страница по умолчанию)
+yandex.ru##:matches-path(maps) div[ class = 'home-panel-content-view__body' ] > div > div:not( .home-panel-content-view__wrapper )
 
 !! Картинки
 ! Реклама в Яндекс.Картинках (между изображениями в списке найденных фото)
