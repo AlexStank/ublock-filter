@@ -36,7 +36,8 @@ yandex.ru##:matches-path(maps) div[ class = 'home-panel-content-view__body' ] > 
 
 !! Картинки
 ! Реклама в Яндекс.Картинках (между изображениями в списке найденных фото)
-ya.ru,yandex.ru##:matches-path(/images/search) .serplist:not( :has( div[ class = 'serp-item' ] ) )
+!ya.ru,yandex.ru##:matches-path(/images/search) .serplist:not( :has( div[ class = 'serp-item' ] ) )
+ya.ru,yandex.ru##:matches-path(/images/search) .JustifierRowLayout-Incut
 ! Реклама в Яндекс.Картинках (режим просмотра картинки)
 ya.ru,yandex.ru##:matches-path(/images/search) .ImagesViewer-Sidebar > div > div > div > div:nth-child(2)
 ! Реклама в Яндекс.Картинках (блок рекламы над картинками)
