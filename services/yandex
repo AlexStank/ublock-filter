@@ -15,6 +15,8 @@ ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 !! Поиск
 ! Просьба установить Яндекс поиском по умолчанию над поисковой строкой
 ya.ru## .Distribution
+! Уведомление от РКН о нарушении законов
+ya.ru## .Warning_type_roskomnadzor
 
 !! Почта
 ! Кнопка "Отключить рекламу" в Яндекс.Почте
