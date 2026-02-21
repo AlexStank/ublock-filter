@@ -54,6 +54,14 @@ ya.ru,yandex.ru##:matches-path(/video/preview) div[ class $= 'VideoListPageDirec
 # Реклама товаров под видео в всплывающем окне
 ya.ru,yandex.ru##:matches-path(/video/preview) div[ class $= 'PopupInnerContent' ] > div > div[ class $= 'LayoutMain' ] > div[ class $= '_withStore' ]
 
+!! Погода
+! Баннер под самым верхним блоком
+yandex.ru##:matches-path(/pogoda) div[ class ^= 'MainPage_topBlockWithMoney' ]
+! Баннеры в списке блоков с погодой по дням
+yandex.ru##:matches-path(/pogoda) li[ class ^= 'AppForecastMoney' ]
+! Баннеры справа
+yandex.ru##:matches-path(/pogoda) div[ class ^= 'AppMoneySidebar' ]
+
 ! Забыл, что это, потом вспомню
 !ya.ru,yandex.ru##.content__right_cols_12.content__right
 
