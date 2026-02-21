@@ -61,6 +61,8 @@ yandex.ru##:matches-path(/pogoda) div[ class ^= 'MainPage_topBlockWithMoney' ]
 yandex.ru##:matches-path(/pogoda) li[ class ^= 'AppForecastMoney' ]
 ! Баннеры справа
 yandex.ru##:matches-path(/pogoda) div[ class ^= 'AppMoneySidebar' ]
+! Уведомление о новом приложении погоды
+yandex.ru##:matches-path(/pogoda) div[ class ^= 'AppPromoInner' ]
 
 ! Забыл, что это, потом вспомню
 !ya.ru,yandex.ru##.content__right_cols_12.content__right
