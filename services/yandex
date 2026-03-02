@@ -15,6 +15,8 @@ ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 !! Поиск
 ! Просьба установить Яндекс поиском по умолчанию над поисковой строкой
 ya.ru## .Distribution
+! Реклама справа от результатов поиска
+ya.ru##:matches-path(search) div[ id = 'search-result-aside' ] > div:not( [ role = 'complementary' ] )
 ! Уведомление от РКН о нарушении законов
 ya.ru## .Warning_type_roskomnadzor
 
