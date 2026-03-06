@@ -13,6 +13,8 @@ ya.ru,yandex.ru##.DistributionPopup
 ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 
 !! Поиск
+! Рекомендации под строкой поиска на главной странице
+ya.ru## div[ class $= 'feed_yes' ]
 ! Просьба установить Яндекс поиском по умолчанию над поисковой строкой
 ya.ru## .Distribution
 ! Реклама справа от результатов поиска
