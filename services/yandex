@@ -23,14 +23,18 @@ ya.ru##:matches-path(search) div[ id = 'search-result-aside' ] > div:not( [ role
 ya.ru## .Warning_type_roskomnadzor
 
 !! Почта
+! Блок рекламы над списком писем
+mail.yandex.ru## div[ class $= 'portal' ]
+! Блок рекламы справа от списка писем
+mail.yandex.ru## div[ data-testid = 'page-layout_right-column_container_v1' ]
 ! Кнопка "Отключить рекламу" в Яндекс.Почте
-mail.yandex.ru##div[ class ^= 'TuningPayButton' ]
+mail.yandex.ru## div[ class ^= 'TuningPayButton' ]
 
 !! Диск
 ! Кнопка "Установить приложение"
-disk.yandex.ru##.AppLink
+disk.yandex.ru## .AppLink
 ! Полоса с рекламой над списком папок
-disk.yandex.ru##.top-direct-line
+disk.yandex.ru## .top-direct-line
 
 !! Карты
 ! Реклама под пунктами начального меню
