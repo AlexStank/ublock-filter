@@ -15,8 +15,6 @@ ya.ru,yandex.ru##.HeaderDesktopActions-Distribution
 !! Поиск
 ! Рекомендации под строкой поиска на главной странице
 ya.ru## div[ class $= 'feed_yes' ]
-! Просьба установить Яндекс поиском по умолчанию над поисковой строкой
-ya.ru## .Distribution
 ! Стартовый экран с предложением установки Яндекс Браузера
 ya.ru,yandex.ru##:matches-path(search) div[ id ^= 'DistributionSplashscreen' ]
 ! Реклама справа от результатов поиска
