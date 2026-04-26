@@ -43,6 +43,8 @@ yandex.ru##:matches-path(maps) div[ class $= 'discovery-home-feed' ]
 yandex.ru##:matches-path(maps) div[ class = 'toponym-card-view__section' ]:has( div[ tabindex = '-1' ] )
 ! Реклама в левом меню (страница по умолчанию)
 yandex.ru##:matches-path(maps) div[ class = 'home-panel-content-view__body' ] > div > div:not( .home-panel-content-view__wrapper )
+! Реклама среди фотографий места
+yandex.ru##:matches-path(maps) .media-gallery__frame-wrapper > div:not( :has( .media-wrapper ) )
 
 !! Картинки
 ! Реклама в Яндекс.Картинках (между изображениями в списке найденных фото)
