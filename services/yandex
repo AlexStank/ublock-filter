@@ -36,6 +36,10 @@ disk.yandex.ru## .AppLink
 ! Полоса с рекламой над списком папок
 disk.yandex.ru## .top-direct-line
 
+!! Документы
+! Реклама на странице просмотра документа
+docviewer.yandex.ru## div[ class ^= 'pages_' ] > div[ style="position: relative;" ]
+
 !! Карты
 ! Реклама под пунктами начального меню
 yandex.ru##:matches-path(maps) div[ class $= 'discovery-home-feed' ]
